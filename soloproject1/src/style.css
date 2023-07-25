@@ -1,0 +1,89 @@
+body{
+    background-color: #282D35;
+}
+.container > img{
+    height:auto;
+    width: 400px;
+    border-radius: 15px 15px 0 0;
+}
+.Info{
+    width: 400px;
+    background-color: #21222A;
+    text-align: center;
+    
+}
+.container{
+    padding-top: 10px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    
+    width:400px;
+}
+.Info > h1{
+    color: #DEEBF8;
+    
+}
+.Info > h5{
+    color:goldenrod;
+    font-weight: 100;
+    font-style: italic;
+    word-spacing: -1px;
+    margin-top: 
+    -5px;
+}
+.Info >p{
+    color:#DEEBF8;
+    margin: 15px;
+}
+.Info > .buttons{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 50px 0  50px;
+}
+#linkedinbtn{
+    width:125px;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-left: 50px;
+    padding-right: 50px;
+    
+}
+#emailbtn{
+    width:125px;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.Info .buttons img{
+    height:auto;
+    width:30px;
+    padding-right: 3px;
+}
+.About{
+    background-color: #21222A;
+    color:#DEEBF8;
+    width:400px;
+    padding:50px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+.Footer >img{
+    height:auto;
+    width:30px;
+    filter:grayscale(100);
+}
+.Footer{
+    display:flex;
+    justify-content: space-between;
+    background-color: #15161b;
+    padding-left: 75px;
+    padding-right: 75px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    width:400px;
+}
