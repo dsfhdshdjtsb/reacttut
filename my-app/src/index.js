@@ -11,18 +11,10 @@
 //         </ul>
 //     </div>
 // )
-import Header from "Header"
+import ReactDOM from "react-dom"
+import React from "react"
+import App from "./App"
+import "./style.css"
 
 
-
-function Page(){
-    return(
-        <div>
-    <Header />
-    <List />
-    <Footer />
-</div>
-    )
-}
-
-ReactDOM.render(<Page />, document.getElementById("root"))
+ReactDOM.render(<App />, document.getElementById("root"))
