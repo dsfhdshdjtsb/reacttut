@@ -1,0 +1,64 @@
+nav {
+    background-color: red; 
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px 15px 0 0;
+}
+nav img{
+    height:50px;
+    padding-right: 10px;
+    width:50px
+}
+nav h1{
+    text-align: center;
+    color:white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#title{
+    display:flex;
+    align-items: center;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Card{
+    display:flex;
+}
+.Card img{
+    padding: 10px;
+    border-radius: 20px;
+}
+.Card #header{
+    display:flex;
+    align-items: baseline;
+    padding-bottom: 0;   
+    padding-top: 10px;
+}
+#header > p{
+    margin-bottom:0
+}
+#header > img{
+    height: auto;
+    width:20px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    margin-left: -10px;
+}
+#header > a{
+    font-size: small;
+    color:gray;
+    padding-left: 10px;
+}
+
+.Card .Main{
+    padding: 0;
+    margin:0;
+    margin-left: 10px;
+}
+
+.Card h2{
+    padding: 0;
+    margin: 0;
+}
