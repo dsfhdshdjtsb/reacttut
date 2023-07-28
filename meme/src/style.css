@@ -1,0 +1,49 @@
+nav{
+    background-color: purple;
+    color:white;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+nav img{
+    height:auto;
+    width:40px;
+    margin-right:10px;
+}
+nav #title{
+    display:flex;
+    align-items: center;
+}
+nav >h2{
+    font-size: medium;
+}
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.FormInput{
+    display:flex;
+    justify-content: center;
+    margin-top:40px;
+}
+#topText{
+    width:44vw;
+    margin-left:5vw;
+    margin-right:1vw;
+}
+#botText{
+    width:44vw;
+    margin-left:1vw;
+    margin-right:5vw;
+}
+#submit{
+    width:90vw;
+    margin-left:5vw;
+    margin-right:5vw;
+    margin-top:20px;
+}
+body{
+    padding:0;
+    margin:0;
+}
